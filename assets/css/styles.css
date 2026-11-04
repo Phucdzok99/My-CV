@@ -20,7 +20,7 @@
   --color-bg: #de1414;           /* nền trang */
   --color-surface: #0672df;      /* nền vùng nhấn */
   --color-border: #ed12a4;       /* viền */
-  --color-chip: #0963d9;         /* nền chip kỹ năng */
+  --color-chip:#0963d9;         /* nền chip kỹ năng */
 
   /* --- Typography --- */
   --font-base: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
