@@ -12,15 +12,15 @@
    ========================================================================== */
 :root {
   /* --- Bảng màu --- */
-  --color-primary: #0be812;      /* xanh thương hiệu */
-  --color-primary-dark: #b1b3ba;
-  --color-accent: #c410192d;       /* tím nhấn */
-  --color-text: #e610a6;         /* chữ chính */
-  --color-text-soft: #64748b;    /* chữ phụ */
-  --color-bg: #1454de;           /* nền trang */
-  --color-surface: #0672df;      /* nền vùng nhấn */
-  --color-border: #ed12a4;       /* viền */
-  --color-chip:#0963d9;         /* nền chip kỹ năng */
+  --color-primary: #0e6da9;      /* xanh thương hiệu */
+  --color-primary-dark: #7283be;
+  --color-accent: #0d0f12;       /* tím nhấn */
+  --color-text: #0f0d0d;         /* chữ chính */
+  --color-text-soft: #0f0c0c;    /* chữ phụ */
+  --color-bg: #ffffff;           /* nền trang */
+  --color-surface :#Fff;      /* nền vùng nhấn */
+  --color-border:#FfF;       /* viền */
+  --color-chip: #FFFFFF;         /* nền chip kỹ năng */
 
   /* --- Typography --- */
   --font-base: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -42,7 +42,7 @@
   --container-max: 1200px;
   --radius: 12px;
   --radius-sm: 8px;
-  --shadow: 0 1px 3px rgba(15, 29, 42, 0.452), 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow: 0 1px 3px rgba(5, 9, 13, 0.452), 0 8px 24px rgba(4, 7, 12, 0.06);
 }
 
 /* ==========================================================================
@@ -124,7 +124,7 @@ Mobile: thương hiệu trên, menu xuống dòng và tự wrap → không tràn
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.9);
+  background:#FFF);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -152,7 +152,7 @@ Mobile: thương hiệu trên, menu xuống dòng và tự wrap → không tràn
   height: 2rem;
   border-radius: var(--radius-sm);
   background: var(--color-primary);
-  color: #fff;
+  color: #171212;
   font-weight: 800;
 }
 
@@ -301,7 +301,7 @@ Mobile: 1 cột. Tablet: 2 cột. Desktop: 3 cột.
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 12px 32px rgba(4, 6, 11, 0.12);
 }
 
 .card-media {
