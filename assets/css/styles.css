@@ -17,7 +17,7 @@
   --color-accent: #c410192d;       /* tím nhấn */
   --color-text: #e610a6;         /* chữ chính */
   --color-text-soft: #64748b;    /* chữ phụ */
-  --color-bg: #de1414;           /* nền trang */
+  --color-bg: #1454de;           /* nền trang */
   --color-surface: #0672df;      /* nền vùng nhấn */
   --color-border: #ed12a4;       /* viền */
   --color-chip:#0963d9;         /* nền chip kỹ năng */
@@ -42,11 +42,11 @@
   --container-max: 1200px;
   --radius: 12px;
   --radius-sm: 8px;
-  --shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow: 0 1px 3px rgba(15, 29, 42, 0.452), 0 8px 24px rgba(15, 23, 42, 0.06);
 }
 
 /* ==========================================================================
-   2. CHUẨN HÓA BOX MODEL + RESET CƠ BẢN
+2. CHUẨN HÓA BOX MODEL + RESET CƠ BẢN
    ========================================================================== */
 *,
 *::before,
@@ -117,8 +117,8 @@ ul {
 }
 
 /* ==========================================================================
-   4. HEADER + NAV (FLEXBOX)
-   Mobile: thương hiệu trên, menu xuống dòng và tự wrap → không tràn ngang.
+  4. HEADER + NAV (FLEXBOX)
+Mobile: thương hiệu trên, menu xuống dòng và tự wrap → không tràn ngang.
    ========================================================================== */
 .site-header {
   position: sticky;
@@ -179,8 +179,8 @@ ul {
 }
 
 /* ==========================================================================
-   5. HERO / GIỚI THIỆU
-   Mobile: xếp dọc (text trên, avatar dưới). Desktop: 2 cột.
+5. HERO / GIỚI THIỆU
+Mobile: xếp dọc (text trên, avatar dưới). Desktop: 2 cột.
    ========================================================================== */
 .hero {
   padding-block: var(--space-5);
@@ -260,7 +260,7 @@ ul {
 .btn-outline:hover { background: var(--color-chip); }
 
 /* ==========================================================================
-   6. KỸ NĂNG – chip tự wrap bằng flex
+6. KỸ NĂNG – chip tự wrap bằng flex
    ========================================================================== */
 .skill-grid {
   display: flex;
@@ -279,8 +279,8 @@ ul {
 }
 
 /* ==========================================================================
-   7. DỰ ÁN – CSS GRID cho danh sách thẻ
-   Mobile: 1 cột. Tablet: 2 cột. Desktop: 3 cột.
+7. DỰ ÁN – CSS GRID cho danh sách thẻ
+Mobile: 1 cột. Tablet: 2 cột. Desktop: 3 cột.
    ========================================================================== */
 .project-grid {
   display: grid;                       /* CSS GRID */
@@ -350,7 +350,7 @@ ul {
 }
 
 /* ==========================================================================
-   8. LIÊN HỆ
+8. LIÊN HỆ
    ========================================================================== */
 .contact-list {
   display: flex;
