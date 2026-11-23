@@ -124,14 +124,14 @@ Mobile: thương hiệu trên, menu xuống dòng và tự wrap → không tràn
   position: sticky;
   top: 0;
   z-index: 10;
-  background:#FFF);
+  background:#FFF;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
 }
 
 .header-inner {
-  display: flex;             /* FLEXBOX */
-  flex-wrap: wrap;           /* cho phép xuống dòng trên màn hình hẹp */
+  display: flex;            
+  flex-wrap: wrap;          
   align-items: center;
   justify-content: space-between;
   gap: var(--space-1);
